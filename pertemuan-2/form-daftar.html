@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .conteiner {
+            display: flex;
+            justify-content: center;
+            align-self: start;
+            border: 1px solid black;
+            width: 50%;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+
+        .form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            gap: 10px;
+        }
+
+        .body {
+            padding: 20px;
+            background-color: lightblue;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+    </style>
+</head>
+
+<body class="body">
+    <div class="conteiner">
+        <form action="" method="post" class="form">
+            <label>
+                Nama
+                <input type="text" name="username" placeholder="Nama" id="nama" required>
+            </label>
+            <label>
+                Email
+                <input type="email" name="Email" placeholder="Email" id="nama" required />
+            </label>
+            <label>
+
+            </label>
+            <label>
+                Jenis Kelamin:
+                <label>
+                    <input type="radio" name="laki-laki" value="laki-laki" />
+                    Laki Laki</label>
+                <label>
+                    <input type="radio" name="laki-laki" value="perempuan" />
+                    Perempuan
+                </label>
+            </label>
+            <label>
+                Hobi
+                <label>
+                    <input type="checkbox" name="laki-laki" value="laki-laki" /> Music</label>
+                <label>
+                    <input type="checkbox" name="laki-laki" value="perempuan" />
+                    Olahraga
+                </label>
+            </label>
+
+            <label>
+                Pilih Kota: <input type="file" name="file" id="file" />
+            </label>
+            <a href="lamaran.html">
+                <button type="button" ">
+                Submit
+            </button>
+        </a>
+        </form>
+    </div>
+</body>
+
+</html>
